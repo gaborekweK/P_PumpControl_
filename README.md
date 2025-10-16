@@ -46,8 +46,8 @@ This Peristaltic Pump Control System is designed to control four peristaltic pum
 ```
 ┌─────────────────┐    HTTP/WebSocket    ┌─────────────────┐    Serial USB    ┌─────────────────┐
 │   Web Browser   │ ◄──────────────────► │  Python Flask   │ ◄──────────────► │   Arduino Uno   │
-│   (Frontend)    │                     │   (Backend)     │                  │  (Controller)   │
-└─────────────────┘                     └─────────────────┘                  └─────────────────┘
+│   (Frontend)    │                      │   (Backend)     │                  │  (Controller)   │
+└─────────────────┘                      └─────────────────┘                  └─────────────────┘
         │                                        │                                     │
         ├─ HTML/CSS/JavaScript                  ├─ Flask API Endpoints                ├─ DRV8825 Drivers
         ├─ Real-time Updates                    ├─ Serial Communication               ├─ Stepper Motors
